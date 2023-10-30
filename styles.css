@@ -1,1 +1,20 @@
-/*  your css code here. If applicable */
+ul{
+	display: flex;
+	flex-direction:column;
+    padding: 6px 25px;
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    align-items: ;
+    justify-content: center;
+    background: white;
+}
+article{
+	background: url('https://images.unsplash.com/photo-1613560361120-25c33e26c40a?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1hb3VudGFpbnxlbnwwfHwwfHx8MA%3D%3D') center center/cover;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+li{
+	background:white;
+	list-style:square;
+}
