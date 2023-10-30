@@ -11,7 +11,7 @@ function sortArticles(bands) {
 
 	bands.sort(customSort);
 
-	const bandList = document.getElementById('band');
+	const bandList = document.getElementById('bands');
 	bands.forEach(article => {
 		const listItem = document.createElement('li');
 		listItem.textContent = article;
